@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".EducationFragment">
+
+    <android.support.v4.widget.DrawerLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/drawer"
+        tools:context=".pendidikan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="4dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="24dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="My Education :"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:padding="10px"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:src="@drawable/smp"
+                android:layout_height="100dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:text="SMPN 6 Depok"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="8dp"
+                android:textSize="18sp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="match_parent"
+                android:text="SMP Negeri 6 Depok, is one of the Public Middle Schools in Depok, which is located at Jl. Mandor Samin, No. 62 Kalibaru Sukmajaya - Depok, West Java."
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"/>
+            <ImageView
+                android:layout_width="100dp"
+                android:src="@drawable/smk"
+                android:layout_height="100dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:text="SMK Taruna Bhakti"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SMK Taruna Bhakti is a specialized vocational school, as for the expertise competencies, namely:
+Computer and Network Engineering (TKJ)
+Rich Media (MM)
+Software Engineering (RPL)
+Broadcasting (BRC)
+Industrial Electronics Engineering (TEI)
+Axioo Class Program (ACP)
+ "/>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+    <android.support.design.widget.NavigationView
+        android:layout_width="wrap_content"
+        app:headerLayout="@layout/header"
+        android:id="@+id/nav_view"
+        app:menu="@menu/navigation_menu"
+        android:layout_gravity="start"
+        android:layout_height="match_parent">
+
+    </android.support.design.widget.NavigationView>
+
+    </android.support.v4.widget.DrawerLayout>
+
+</FrameLayout>

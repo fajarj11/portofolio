@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">E-Ticket Kereta</string>
+    <string-array name="data_array">
+        <item>KA Purwojaya</item>
+        <item>KA Jayakarta Premium</item>
+        <item>KA Sawunggalih</item>
+        <item>KA Argo Dwipangga</item>
+        <item>KA Fajar Utama</item>
+    </string-array>
+</resources>

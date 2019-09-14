@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item android:id="@+id/nav_home"
+        android:icon="@drawable/home"
+        android:title="Home"/>
+
+    <item android:id="@+id/nav_about"
+        android:icon="@drawable/school"
+        android:title="About &amp; Education"/>
+
+    <item android:id="@+id/nav_portofolio"
+        android:icon="@drawable/portofolio"
+        android:title="Portofolio"/>
+
+    <item android:id="@+id/nav_skill"
+        android:icon="@drawable/skill"
+        android:title="Skill"/>
+
+    <item android:id="@+id/nav_experience"
+        android:icon="@drawable/experience"
+        android:title="Experience"/>
+
+    <item android:id="@+id/nav_info"
+        android:icon="@drawable/info"
+        android:title="Apps Info"/>
+
+
+</menu>
